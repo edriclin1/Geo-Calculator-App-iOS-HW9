@@ -12,6 +12,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Location Search View Controller-->
+        <scene sceneID="oKg-9j-r0p">
+            <objects>
+                <viewController id="D6X-NW-Su6" customClass="LocationSearchViewController" customModule="Geo_Calculator_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Nj-Dg-U7d"/>
+                        <viewControllerLayoutGuide type="bottom" id="uiI-CV-JaH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UFb-SJ-Bgh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0S-hh-dnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1297" y="-1164"/>
+        </scene>
         <!--GeoCalculator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -95,13 +113,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgU-3g-Okc" customClass="GeoCalcButton" customModule="Geo_Calculator_App" customModuleProvider="target">
+                                <rect key="frame" x="124.5" y="629" width="125" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <segue destination="D6X-NW-Su6" kind="show" identifier="searchSegue" id="hyf-aT-1jE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3rR-OR-vuI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="7LI-BY-J0Y"/>
+                            <constraint firstItem="QgU-3g-Okc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Eiq-qJ-xZ8"/>
                             <constraint firstItem="3rR-OR-vuI" firstAttribute="top" secondItem="q31-0g-86C" secondAttribute="bottom" constant="8" symbolic="YES" id="FOL-Kv-pFO"/>
                             <constraint firstItem="yZZ-OM-b0P" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="Fyn-nv-anY"/>
                             <constraint firstItem="3rR-OR-vuI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Lof-yj-8BF"/>
+                            <constraint firstItem="QgU-3g-Okc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="Lqi-6B-AhL"/>
                             <constraint firstItem="yZZ-OM-b0P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PiB-N0-XHM"/>
                             <constraint firstItem="RGp-xk-hxq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="T1v-dk-WYP"/>
                             <constraint firstItem="q31-0g-86C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="U4D-Yp-q1U"/>
@@ -111,6 +138,7 @@
                             <constraint firstItem="RGp-xk-hxq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dbc-QJ-oYh"/>
                             <constraint firstItem="rjI-VM-NZL" firstAttribute="top" secondItem="RGp-xk-hxq" secondAttribute="bottom" constant="8" symbolic="YES" id="fHs-1m-24A"/>
                             <constraint firstItem="rjI-VM-NZL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="o25-9h-yyo"/>
+                            <constraint firstItem="9ga-XI-qcI" firstAttribute="top" secondItem="QgU-3g-Okc" secondAttribute="bottom" constant="8" id="pJ8-99-1RQ"/>
                             <constraint firstItem="q31-0g-86C" firstAttribute="top" secondItem="2IF-zW-vpx" secondAttribute="bottom" constant="8" symbolic="YES" id="sMh-cv-r0T"/>
                             <constraint firstItem="yZZ-OM-b0P" firstAttribute="top" secondItem="q31-0g-86C" secondAttribute="bottom" constant="8" symbolic="YES" id="v6H-qz-u5J"/>
                         </constraints>

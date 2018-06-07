@@ -10,6 +10,12 @@
 
 import UIKit
 
+import GooglePlaces
+let GOOGLE_PLACES_API_KEY = "AIzaSyB1qjTlIEp5HwrReZr13vVc1o2buIH-1I0"
+//let GOOGLE_PLACES_API_KEY = "AIzaSyDer5rk32qrA8ek2Oiu0wkDwjd3-LRnbu4"
+
+import Firebase
+
 let BACKGROUND_COLOR = UIColor.init(red: 0.000, green: 0.369, blue: 0.420, alpha: 1.00) // Blueish
 let FOREGROUND_COLOR = UIColor.init(red: 0.937, green: 0.820, blue: 0.576, alpha: 1.0) // Tannish
 
@@ -31,6 +37,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navAppearance.tintColor = FOREGROUND_COLOR
         navAppearance.isTranslucent = false
         navAppearance.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        
+        // google places api
+        GMSPlacesClient.provideAPIKey(GOOGLE_PLACES_API_KEY)
+        
+        // set up firebase
+        FirebaseApp.configure()
         
         return true
     }

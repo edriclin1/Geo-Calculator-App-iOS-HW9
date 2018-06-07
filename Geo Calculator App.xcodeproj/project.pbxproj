@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14FB6B39F7F17DC280B6C73C /* Pods_Geo_Calculator_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E0DD37DEFC105020313499 /* Pods_Geo_Calculator_AppTests.framework */; };
 		3F191FE320AE29F10007DAB7 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F191FE220AE29F10007DAB7 /* CLLocationExtensions.swift */; };
 		3F191FE520AE29F90007DAB7 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F191FE420AE29F90007DAB7 /* DecimalMinusTextField.swift */; };
 		3F191FE720AE4B6C0007DAB7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F191FE620AE4B6C0007DAB7 /* SettingsViewController.swift */; };
+		3F1FBBFA20C9DE17005D7203 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FBBF920C9DE17005D7203 /* GoogleService-Info.plist */; };
 		3F772EE220BE12E2006CBD9B /* LocationLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F772EE120BE12E2006CBD9B /* LocationLookup.swift */; };
 		3F772EE420BE1825006CBD9B /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F772EE320BE1825006CBD9B /* HistoryTableViewController.swift */; };
 		3FD728A620ABA04C006CDD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD728A520ABA04C006CDD5B /* AppDelegate.swift */; };
@@ -19,10 +21,13 @@
 		3FD728B020ABA055006CDD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD728AE20ABA055006CDD5B /* LaunchScreen.storyboard */; };
 		3FD728BB20ABA055006CDD5B /* Geo_Calculator_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD728BA20ABA055006CDD5B /* Geo_Calculator_AppTests.swift */; };
 		3FD728C620ABA055006CDD5B /* Geo_Calculator_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD728C520ABA055006CDD5B /* Geo_Calculator_AppUITests.swift */; };
+		3FFD902B20C9CF84006CECD8 /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD902A20C9CF84006CECD8 /* LocationSearchViewController.swift */; };
 		548518FA20B8AAAF00AE7E21 /* GeoCalcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548518F920B8AAAF00AE7E21 /* GeoCalcLabel.swift */; };
 		548518FC20B8AC5200AE7E21 /* GeoCalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548518FB20B8AC5200AE7E21 /* GeoCalcButton.swift */; };
 		548518FE20B8AFB100AE7E21 /* GeoCalcTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548518FD20B8AFB100AE7E21 /* GeoCalcTextField.swift */; };
 		548E79A420BF65900092C43F /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E79A320BF65900092C43F /* HistoryTableViewCell.swift */; };
+		7701C9D2D33D01322D587393 /* Pods_Geo_Calculator_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2B46389242749C298E59B6 /* Pods_Geo_Calculator_App.framework */; };
+		B80EC9D60C757B3F8FD3C5C0 /* Pods_Geo_Calculator_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF6D812CFF1DE093E99C2A /* Pods_Geo_Calculator_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8299EE96495393D611E064 /* Pods-Geo Calculator AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo Calculator AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geo Calculator AppTests/Pods-Geo Calculator AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D44D94E3E17F90F40346297 /* Pods-Geo Calculator AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo Calculator AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geo Calculator AppTests/Pods-Geo Calculator AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A0D12ABDD1905FCD53A96EB /* Pods-Geo Calculator App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo Calculator App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geo Calculator App/Pods-Geo Calculator App.debug.xcconfig"; sourceTree = "<group>"; };
+		3AAF6D812CFF1DE093E99C2A /* Pods_Geo_Calculator_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geo_Calculator_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F191FE220AE29F10007DAB7 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationExtensions.swift; sourceTree = "<group>"; };
 		3F191FE420AE29F90007DAB7 /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
 		3F191FE620AE4B6C0007DAB7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3F1FBBF920C9DE17005D7203 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3F772EE120BE12E2006CBD9B /* LocationLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLookup.swift; sourceTree = "<group>"; };
 		3F772EE320BE1825006CBD9B /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		3FD728A220ABA04C006CDD5B /* Geo Calculator App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo Calculator App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +71,16 @@
 		3FD728C120ABA055006CDD5B /* Geo Calculator AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo Calculator AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD728C520ABA055006CDD5B /* Geo_Calculator_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_Calculator_AppUITests.swift; sourceTree = "<group>"; };
 		3FD728C720ABA055006CDD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFD902A20C9CF84006CECD8 /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
 		548518F920B8AAAF00AE7E21 /* GeoCalcLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalcLabel.swift; sourceTree = "<group>"; };
 		548518FB20B8AC5200AE7E21 /* GeoCalcButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalcButton.swift; sourceTree = "<group>"; };
 		548518FD20B8AFB100AE7E21 /* GeoCalcTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalcTextField.swift; sourceTree = "<group>"; };
 		548E79A320BF65900092C43F /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		69E0DD37DEFC105020313499 /* Pods_Geo_Calculator_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geo_Calculator_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		739209545454EEB682517027 /* Pods-Geo Calculator AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo Calculator AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geo Calculator AppUITests/Pods-Geo Calculator AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		847B41B3DABC68544338F708 /* Pods-Geo Calculator AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo Calculator AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geo Calculator AppUITests/Pods-Geo Calculator AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88568E2DC1B119DDFD1EC4C3 /* Pods-Geo Calculator App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geo Calculator App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geo Calculator App/Pods-Geo Calculator App.release.xcconfig"; sourceTree = "<group>"; };
+		CA2B46389242749C298E59B6 /* Pods_Geo_Calculator_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geo_Calculator_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7701C9D2D33D01322D587393 /* Pods_Geo_Calculator_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FB6B39F7F17DC280B6C73C /* Pods_Geo_Calculator_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80EC9D60C757B3F8FD3C5C0 /* Pods_Geo_Calculator_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EBD47DBD8615FF484C3A16C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A0D12ABDD1905FCD53A96EB /* Pods-Geo Calculator App.debug.xcconfig */,
+				88568E2DC1B119DDFD1EC4C3 /* Pods-Geo Calculator App.release.xcconfig */,
+				0A8299EE96495393D611E064 /* Pods-Geo Calculator AppTests.debug.xcconfig */,
+				1D44D94E3E17F90F40346297 /* Pods-Geo Calculator AppTests.release.xcconfig */,
+				847B41B3DABC68544338F708 /* Pods-Geo Calculator AppUITests.debug.xcconfig */,
+				739209545454EEB682517027 /* Pods-Geo Calculator AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FD7289920ABA04C006CDD5B = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +131,8 @@
 				3FD728B920ABA055006CDD5B /* Geo Calculator AppTests */,
 				3FD728C420ABA055006CDD5B /* Geo Calculator AppUITests */,
 				3FD728A320ABA04C006CDD5B /* Products */,
+				3EBD47DBD8615FF484C3A16C /* Pods */,
+				B825C06186ABE99635C91187 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +164,8 @@
 				3F772EE120BE12E2006CBD9B /* LocationLookup.swift */,
 				3F772EE320BE1825006CBD9B /* HistoryTableViewController.swift */,
 				548E79A320BF65900092C43F /* HistoryTableViewCell.swift */,
+				3FFD902A20C9CF84006CECD8 /* LocationSearchViewController.swift */,
+				3F1FBBF920C9DE17005D7203 /* GoogleService-Info.plist */,
 			);
 			path = "Geo Calculator App";
 			sourceTree = "<group>";
@@ -152,6 +188,16 @@
 			path = "Geo Calculator AppUITests";
 			sourceTree = "<group>";
 		};
+		B825C06186ABE99635C91187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2B46389242749C298E59B6 /* Pods_Geo_Calculator_App.framework */,
+				69E0DD37DEFC105020313499 /* Pods_Geo_Calculator_AppTests.framework */,
+				3AAF6D812CFF1DE093E99C2A /* Pods_Geo_Calculator_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FD728CA20ABA055006CDD5B /* Build configuration list for PBXNativeTarget "Geo Calculator App" */;
 			buildPhases = (
+				67CDD6177EDAAA8AE39ADE88 /* [CP] Check Pods Manifest.lock */,
 				3FD7289E20ABA04C006CDD5B /* Sources */,
 				3FD7289F20ABA04C006CDD5B /* Frameworks */,
 				3FD728A020ABA04C006CDD5B /* Resources */,
+				AAF95EAEE3D29864AF0CDDEE /* [CP] Embed Pods Frameworks */,
+				F21E565418643DBE22E4A37E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FD728CD20ABA055006CDD5B /* Build configuration list for PBXNativeTarget "Geo Calculator AppTests" */;
 			buildPhases = (
+				46969D148CD1C8CFEB934469 /* [CP] Check Pods Manifest.lock */,
 				3FD728B220ABA055006CDD5B /* Sources */,
 				3FD728B320ABA055006CDD5B /* Frameworks */,
 				3FD728B420ABA055006CDD5B /* Resources */,
@@ -194,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FD728D020ABA055006CDD5B /* Build configuration list for PBXNativeTarget "Geo Calculator AppUITests" */;
 			buildPhases = (
+				05A29201BFC8AC89206AF6B7 /* [CP] Check Pods Manifest.lock */,
 				3FD728BD20ABA055006CDD5B /* Sources */,
 				3FD728BE20ABA055006CDD5B /* Frameworks */,
 				3FD728BF20ABA055006CDD5B /* Resources */,
@@ -257,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD728B020ABA055006CDD5B /* LaunchScreen.storyboard in Resources */,
+				3F1FBBFA20C9DE17005D7203 /* GoogleService-Info.plist in Resources */,
 				3FD728AD20ABA055006CDD5B /* Assets.xcassets in Resources */,
 				3FD728AB20ABA04C006CDD5B /* Main.storyboard in Resources */,
 			);
@@ -278,6 +330,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A29201BFC8AC89206AF6B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geo Calculator AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46969D148CD1C8CFEB934469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geo Calculator AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67CDD6177EDAAA8AE39ADE88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geo Calculator App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF95EAEE3D29864AF0CDDEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Geo Calculator App/Pods-Geo Calculator App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geo Calculator App/Pods-Geo Calculator App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21E565418643DBE22E4A37E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Geo Calculator App/Pods-Geo Calculator App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geo Calculator App/Pods-Geo Calculator App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FD7289E20ABA04C006CDD5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -290,6 +443,7 @@
 				3F772EE420BE1825006CBD9B /* HistoryTableViewController.swift in Sources */,
 				3F191FE520AE29F90007DAB7 /* DecimalMinusTextField.swift in Sources */,
 				3F191FE720AE4B6C0007DAB7 /* SettingsViewController.swift in Sources */,
+				3FFD902B20C9CF84006CECD8 /* LocationSearchViewController.swift in Sources */,
 				548518FA20B8AAAF00AE7E21 /* GeoCalcLabel.swift in Sources */,
 				548E79A420BF65900092C43F /* HistoryTableViewCell.swift in Sources */,
 				3F772EE220BE12E2006CBD9B /* LocationLookup.swift in Sources */,
@@ -464,15 +618,13 @@
 		};
 		3FD728CB20ABA055006CDD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0D12ABDD1905FCD53A96EB /* Pods-Geo Calculator App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDJS67BVXD;
 				INFOPLIST_FILE = "Geo Calculator App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cis.gvsu.Geo-Calculator-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,15 +634,13 @@
 		};
 		3FD728CC20ABA055006CDD5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88568E2DC1B119DDFD1EC4C3 /* Pods-Geo Calculator App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDJS67BVXD;
 				INFOPLIST_FILE = "Geo Calculator App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cis.gvsu.Geo-Calculator-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -500,17 +650,14 @@
 		};
 		3FD728CE20ABA055006CDD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8299EE96495393D611E064 /* Pods-Geo Calculator AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDJS67BVXD;
 				INFOPLIST_FILE = "Geo Calculator AppTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cis.gvsu.Geo-Calculator-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,17 +668,14 @@
 		};
 		3FD728CF20ABA055006CDD5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D44D94E3E17F90F40346297 /* Pods-Geo Calculator AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDJS67BVXD;
 				INFOPLIST_FILE = "Geo Calculator AppTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cis.gvsu.Geo-Calculator-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -542,16 +686,13 @@
 		};
 		3FD728D120ABA055006CDD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847B41B3DABC68544338F708 /* Pods-Geo Calculator AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDJS67BVXD;
 				INFOPLIST_FILE = "Geo Calculator AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cis.gvsu.Geo-Calculator-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -562,16 +703,13 @@
 		};
 		3FD728D220ABA055006CDD5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739209545454EEB682517027 /* Pods-Geo Calculator AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDJS67BVXD;
 				INFOPLIST_FILE = "Geo Calculator AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cis.gvsu.Geo-Calculator-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
